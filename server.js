@@ -31,7 +31,7 @@ app.get('/health', (req,res)=>{
 
     res.json(stat)
 })
-app.use('*', productRoutes);
+app.use('/api', productRoutes); 
 
 
 
